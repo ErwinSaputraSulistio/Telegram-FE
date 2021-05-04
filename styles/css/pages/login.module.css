@@ -1,0 +1,13 @@
+/* DESKTOP */
+@media(min-width: 768px){
+   .authBigTitle { color: #7E98DF; font-size: 1.5vw; font-weight: 600; }
+   .authSmallTitle { font-size: 1vw; margin: 2.5vw 0; text-align: left; }
+   .forgotPassword { color: #7E98DF; font-size: 1vw; margin: 2vw 0; text-align: right; }
+   .dontHaveAnAccount { font-size: 0.9vw; margin-top: 2.5vw; text-align: center; }
+   .signUp { color: #7E98DF; font-weight: bold; }
+}
+
+/* MOBILE */
+@media(max-width: 768px){
+   
+}

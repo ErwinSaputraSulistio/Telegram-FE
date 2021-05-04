@@ -1,0 +1,11 @@
+/* DESKTOP */
+@media(min-width: 768px){
+    .authBigTitle { color: #7E98DF; font-size: 1.5vw; font-weight: 600; }
+    .authSmallTitle { font-size: 1vw; margin: 2.5vw 0; text-align: left; }
+    .gapBetweenInputAndRegister { margin-top: 2.5vw; }
+ }
+ 
+ /* MOBILE */
+ @media(max-width: 768px){
+    
+ }

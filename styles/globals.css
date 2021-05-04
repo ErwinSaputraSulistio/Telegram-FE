@@ -1,0 +1,44 @@
+/* BASE CONF */
+html, body { padding: 0; margin: 0; font-family: 'Rubik' }
+a { color: inherit; text-decoration: none; }
+button { border: none; }
+input { border: none; }
+input:focus { outline: none; }
+input:invalid { box-shadow: none; }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+* { box-sizing: border-box; }
+
+/* CSS ADD ASSETS/MODELS */
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+/* CSS FUNCTION GLOBAL */
+.showInAnimation {animation: showOpacity 0.5s;} @keyframes showOpacity{from{opacity: 0;} to{opacity: 1;}}
+.displayColumn { display: flex; flex-direction: column; }
+.displayRow { display: flex; flex-direction: row; }
+.hoverThis:hover { cursor: pointer; opacity: 0.5; }
+
+/* CSS AUTH GLOBAL */
+.authBg { align-items: center; background: #F6F6F6; justify-content: center; height: 100vh; }
+.authBorder {
+  background: white;
+  border-radius: 2vw;
+  box-shadow: 0 1.5vw 1.5vw rgba(126, 152, 223, 0.05);
+  height: auto;
+  margin: auto;
+  padding: 6vh 3vw;
+  width: 30%;
+}
+.gapBetweenButtonAndGoogle { align-items: center; justify-content: space-between; margin: 2.2vw 0; }
+.lineBreak { border-bottom: 0.1vw solid #848484; width: 30%; }
+.lineBreakText { color: #848484; font-size: 1vw; }
+
+/* RESPONSIVE MOBILE WEB STILL IN DEVELOPMENT */
+@media(max-width: 768px) { .showInAnimation { display: none; } }

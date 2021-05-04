@@ -1,0 +1,63 @@
+/* DESKTOP */
+@media(min-width: 768px) {
+   /* INPUT */
+   .inputLabel {
+      color: #848484;
+      font-size: 0.8vw;
+      opacity: 0.75;
+      margin: 2vw 0 1vw 0;
+      text-align: left;
+   }
+   .inputZone { 
+      align-items: center;
+      border-bottom: 0.1vw solid black;
+      padding-bottom: 1vw;
+   }
+   .inputBaseSize { font-size: 1vw; width: 100%; }
+   .eyeBtnSize { height: 0.8vw; width: 1.2vw; }
+   /* BUTTON */
+   .bigBtn {
+      border-radius: 5vw;
+      font-size: 1vw;
+      font-weight: 600;
+      padding: 1.1vw;
+   }
+   .bigBtnLogo { height: 1.1vw; margin: 0 1vw; width: 1.1vw; }
+   /* CHAT LEFT SIDE */
+      /* HAM MENU */
+   .hamMenuBtnIcon { justify-content: center; margin-right: 2vw; width: 2vw; }
+   .hamMenuBtnText { color: white; font-size: 1vw; }
+      /* CHAT BOX */
+   .chatBox { align-items: center; padding: 1vw 2vw; transition-delay: 1s; transition-duration: 0.5s; }
+   .insideChatBox { width: 21vw; }
+   .chatBoxInfo { width: 100%; }
+   .chatBoxInfoRow { align-items: center; justify-content: space-between; padding: 0.33vw 0; width: 16vw; }
+   .chatUserImage { border-radius: 1.1vw; height: 4vw; margin-right: 1vw; width: 4vw; }
+   .chatUserName { font-size: 1.1vw; font-weight: 600; }
+   .chatTime, .chatMessage { color: #848484; font-size: 0.9vw; }
+   .chatBoxOption { 
+      align-items: center; 
+      background: #7E98DF; 
+      height: 7.7vh; 
+      justify-content: space-between; 
+      margin-left: 2vw; 
+      padding: 0 3vw; 
+      transition-duration: 0.5s; 
+      width: 21vw; 
+   }
+   .chatBox:hover { margin-left: -16vw; padding: 1vw 0; }
+   .saveMessages { height: 1.5vw; width: 1.1vw; }
+   .doubleCheck { height: 0.8vw; width: 1.5vw; }
+   .deleteBtn { height: 1.3vw; width: 1.1vw; }
+      /* SETTINGS BUTTON */
+   .settingsBtn { align-items: center; justify-content: space-between; margin: 0.77vw 0; width: 100%; }
+   .settingsIcon { margin-right: 2vw; width: 2vw; }
+   .settingsIconLogo { height: 1.5vw; width: 1.5vw; }
+   .settingsBtnText{ font-size: 1vw; width: 100%; }
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+   .eyeBtnSize { height: 12px; width: 17px; }
+   .bigBtnLogo { height: 17px; width: 17px; }
+}
