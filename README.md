@@ -20,7 +20,6 @@
     npm run dev
 
 ## Links :  
-Frontend : https://github.com/ErwinSaputraSulistio/Telegram-FE  
 Backend : https://github.com/ErwinSaputraSulistio/Telegram-BE  
 
 ## Tools :  
