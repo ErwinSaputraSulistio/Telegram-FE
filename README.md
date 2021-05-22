@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Telegram-FE
 
-## Getting Started
+## Displays :  
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### 1.) Login  
+![Login](https://user-images.githubusercontent.com/77045083/117059480-0bacef00-ad4a-11eb-99c5-cc9ce21c6677.png)  
+### 2.) Menu  
+![Menu](https://user-images.githubusercontent.com/77045083/117723464-99864f80-b20c-11eb-9518-8692b8719625.png)
+### 3.) Chat  
+![Chat](https://user-images.githubusercontent.com/77045083/117723470-9b501300-b20c-11eb-8586-6d56424f9d77.png)
+### 4.) Profile  
+![Profile](https://user-images.githubusercontent.com/77045083/117723450-97bc8c00-b20c-11eb-94b0-38948cb1c4fe.png)
+### 5.) Validasi  
+![Validasi](https://user-images.githubusercontent.com/77045083/117059613-31d28f00-ad4a-11eb-8eb6-7712651e0f31.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to install & start?  
+    git clone https://github.com/ErwinSaputraSulistio/Telegram-FE
+    cd Telegram-FE
+    npm run dev
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Links :  
+Backend : https://github.com/ErwinSaputraSulistio/Telegram-BE  
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Tools :  
+![HTML CSS JS Logo](https://user-images.githubusercontent.com/77045083/110452347-ad6fe100-80f7-11eb-94ab-c86a935c6e1f.png)
+![ReactJS](https://user-images.githubusercontent.com/77045083/118378083-645a7280-b5fb-11eb-84b3-92d0b0e09e57.png)
