@@ -5,19 +5,24 @@ import ChatSearch from '../../molecules/ChatLeftSide/ChatSearch'
 import ChatSort from '../../molecules/ChatLeftSide/ChatSort'
 import ChatGroup from '../../molecules/ChatLeftSide/ChatGroup'
 
-export default function Chat({ passDatasFromTemplates, passFuncsFromTemplates }) {
+export default function Chat({ passDatasFromTemplates, passFuncsFromTemplates, switchVisibility }) {
    const [sortChat, setSortChat] = useState("All")
    return(
       <div className={css.chatLeftSide}>
          <ChatNavbar passFuncsFromOrganisms={passFuncsFromTemplates}/>
-         <ChatSearch/>
+         <ChatSearch switchVisibility={switchVisibility}/>
          <ChatSort passFuncsFromOrganisms={[
             sortChat, 
             () => { setSortChat("All") }, 
             () => { setSortChat("Important") }, 
             () => { setSortChat("Unread") }
          ]}/>
-         <ChatGroup del={ passFuncsFromTemplates[8] } passDatasFromOrganisms={ passDatasFromTemplates } passFuncsFromOrganisms={ passFuncsFromTemplates[7] }/>
+         <ChatGroup 
+            del={ passFuncsFromTemplates[8] } 
+            passDatasFromOrganisms={ passDatasFromTemplates } 
+            passFuncsFromOrganisms={ passFuncsFromTemplates[7] }
+            switchVisibility={switchVisibility}
+         />
       </div>
    )
  }

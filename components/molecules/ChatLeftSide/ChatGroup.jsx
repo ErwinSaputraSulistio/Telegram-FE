@@ -1,7 +1,7 @@
 import css from '../../../styles/css/components/molecules.module.css'
 import ChatBox from '../../atoms/ChatLeftSide/ChatBox'
 
-export default function ChatGroup({ del, passDatasFromOrganisms, passFuncsFromOrganisms }) {
+export default function ChatGroup({ del, passDatasFromOrganisms, passFuncsFromOrganisms, switchVisibility }) {
    return(
       <div className={"displayColumn " + css.chatGroup}>
          { passDatasFromOrganisms.map((item) => 
@@ -13,6 +13,7 @@ export default function ChatGroup({ del, passDatasFromOrganisms, passFuncsFromOr
                   name={item.connection_data.real_name}
                   unique={item.connection_data.connection_id}
                   userid={item.connection_data.user_id}
+                  switchVisibility={switchVisibility}
                /> 
             }) 
          }

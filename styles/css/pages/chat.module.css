@@ -1,5 +1,11 @@
+.chatZone {display: flex;}
+
 /* DESKTOP */
-@media(min-width: 768px) {  }
+@media(min-width: 768px) { 
+    .chatZone { flex-direction: row; } 
+}
 
 /* MOBILE */
-@media(max-width: 768px) {  }
+@media(max-width: 768px) { 
+    .chatZone { flex-direction: column; } 
+}

@@ -7,7 +7,7 @@ import Check from '../../../img/doubleCheck.png'
 import Delete from '../../../img/deleteBtn.png'
 import Swal from 'sweetalert2'
 
-export default function ChatBox({ del, func, image, name, unique, userid }) {
+export default function ChatBox({ del, func, image, name, unique, userid, switchVisibility }) {
    const [latestMessage, setLatestMessage] = useState("")
    const deleteChatHistory = () => {
       axios.delete(process.env.SERVER + "/chat/history/" + unique)
@@ -25,9 +25,20 @@ export default function ChatBox({ del, func, image, name, unique, userid }) {
       .then((res) => { setLatestMessage(res.data.outputData.message) })
       .catch((err) => { console.log(err.response) })
    }, [])
+   // CLICK CHAT FUNCTIONS
+   const clickChat = (e) => {
+      func(e)
+      switchVisibility()
+   }
    return(
       <div className={"displayRow " + css.chatBox}>
-         <div className={"displayRow hoverThis " + css.insideChatBox} img={image} user={name} userid={userid} onClick={func} serial={unique} >
+         <div
+            className={"displayRow hoverThis " + css.insideChatBox} 
+            img={image} user={name} 
+            userid={userid} 
+            onClick={ (e) => { clickChat(e) } } 
+            serial={unique} 
+         >
             <img className={css.chatUserImage} img={image} user={name} userid={userid} serial={unique} src={image}/>
             <div className={"displayColumn " + css.chatBoxInfo} img={image} user={name} userid={userid} serial={unique}>
                <div className={"displayRow " + css.chatBoxInfoRow} img={image} user={name} userid={userid} serial={unique}>

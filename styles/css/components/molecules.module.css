@@ -1,6 +1,7 @@
 /* DESKTOP */
 @media(min-width: 768px) {
    /* CHAT LEFT SIDE */
+   .hideThisInDesktop { display: none; }
       /* CHAT NAVBAR */
    .chatNavbar { padding: 2vw; }
    .chatNavbarTelegramText { color: #7E98DF; font-size: 2vw; font-weight: 600; }
@@ -65,8 +66,76 @@
 /* MOBILE */
 @media(max-width: 768px) {
    /* CHAT LEFT SIDE */
-
+   .hideThisInMobile { display: none; }
+   .visibilityTrigger { 
+      align-items: center; 
+      background: #7E98DF; 
+      border-radius: 2.5vw;
+      color: white; 
+      font-size: 7.7vw; 
+      font-weight: bold; 
+      height: 11vw; 
+      justify-content: center; 
+      width: 11vw; 
+   }
+   /* CHAT NAVBAR */
+   .chatNavbar { padding: 7.7vw; }
+   .chatNavbarTelegramText { color: #7E98DF; font-size: 5.5vw; font-weight: 600; }
+   .chatNavbarToggle { height: 5.5vw; width: 5.5vw; }
+   .back { color: #7E98DF; font-size: 5.5vw; font-weight: bold; padding: 5.5vw; }
+      /* HAM MENU */
+   .chatNavbarHamMenu { background: #7E98DF; border-radius: 4vw 1vw 4vw 4vw; right: 15vw; padding: 3vw 5vw; position: absolute; top: 8.8vh; z-index: 1; }
+   .settings, .contacts, .calls, .telegramFAQ { width: 4.5vw; }
+   .settings, .contacts, .telegramFAQ { height: 4.5vw; }
+   .saveMessages { height: 4.5vw; width: 3vw; }
+   .inviteFriends { width: 6vw; }
+      /* CHAT SEARCH */
+   .chatSearch { align-items: center; padding: 3.3vw 7.7vw; justify-content: space-between; }
+   .chatSearchBorder { align-items: center; background: #F5F6F8; border-radius: 2.5vw; padding: 2.5vw; width: 80%; }
+   .logoSize { height: 5.5vw; width: 5.5vw; }
+   .searchInputBox { background: transparent; color: #848484; font-size: 4vw; margin-left: 4vw; width: 100%; }
+      /* CHAT SORT */
+   .sortArea { padding: 3.3vw 7.7vw; }
+   .sortBtn { border-radius: 2.5vw; padding: 2.5vw; font-size: 4vw; font-weight: bold; text-align: center; transition-duration: 0.3s; width: 33%; }
+      /* CHAT GROUP */
+   .chatGroup { height: 123vw; overflow: hidden; transition-duration: 0.3s; }
+   .chatGroup:hover { overflow-y: auto; }
+      /* MORE SETTINGS */
+   .moreSettings { padding: 3.3vw 7.7vw; }
+   .moreSettingsText { font-size: 4vw; font-weight: bold; margin: 3.3vw 0; }
+      /* IN DEVELOPMENT */
+   .inDevelopment { align-items: center; font-size: 4vw; font-weight: bold; height: 80vh; justify-content: center; }
+   .inDevelopmentAnimation { width: 77%; }
    /* CHAT RIGHT SIDE */
+      /* NAVBAR */
+   .chatRightSideNavbar, .typeMessage {
+      align-items: center;
+      background: white;
+      justify-content: space-between;
+      padding: 3.3vw 7.7vw;
+      position: fixed;
+   }
+   .chatRightSideNavbar { top: 0; width: 100%; }
+   .chatRightSideNavbarProfilePicture { 
+      border-radius: 5vw; 
+      height: 15vw; 
+      margin-right: 5vw;
+      width: 15vw; 
+   }
+   .chatRightSideNavbarProfileName { font-size: 4vw; font-weight: 600; }
+   .chatRightSideNavbarProfileStatus { color: #7E98DF; font-size: 2.5vw; margin-top: 0.5vw; }
+   .profileMenuBtn { height: 5.5vw; width: 5.5vw; }
       /* TYPE MESSAGE */
-   .chatThreeBtnLogo { height: 20px; width: 20px; }
+   .typeMessage {
+      bottom: 0;
+      width: 100%;
+   }
+   .typeMessageBorder {
+      background: #FAFAFA;
+      border-radius: 2vw;
+      padding: 4vw;
+      width: 100%;
+   }
+   .typeMessageInput { font-size: 4vw; }
+   .chatThreeBtnLogo { height: 4vw; margin: 0 2vw; width: 4vw; }
 }

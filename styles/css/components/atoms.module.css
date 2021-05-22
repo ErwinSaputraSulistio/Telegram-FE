@@ -58,6 +58,63 @@
 
 /* MOBILE */
 @media(max-width: 768px) {
-   .eyeBtnSize { height: 12px; width: 17px; }
-   .bigBtnLogo { height: 17px; width: 17px; }
+   /* INPUT */
+   .inputLabel {
+      color: #848484;
+      font-size: 2.5vw;
+      opacity: 0.75;
+      margin: 4vw 0 2vw 0;
+      text-align: left;
+   }
+   .inputZone { 
+      align-items: center;
+      border-bottom: 0.1vw solid black;
+      padding-bottom: 2.5vw;
+   }
+   .inputBaseSize { font-size: 4vw; width: 100%; }
+   .eyeBtnSize { height: 4vw; width: 5vw; }
+   /* BUTTON */
+   .bigBtn {
+      border-radius: 5vw;
+      font-size: 4vw;
+      font-weight: 600;
+      padding: 2.5vw;
+   }
+   .bigBtnLogo { height: 3.3vw; margin: 0 2.5vw; width: 3.3vw; }
+   /* CHAT LEFT SIDE */
+      /* HAM MENU */
+   .hamMenuBtnIcon { justify-content: center; margin-right: 4vw; width: 8vw; }
+   .hamMenuBtnText { color: white; font-size: 4vw; margin: 2.2vw 0; }
+      /* CHAT BOX */
+   .chatBox { align-items: center; padding: 3.3vw 7.7vw; width: 100vw; }
+   .insideChatBox { width: 100vw; }
+   .chatBoxInfo { justify-content: center; width: 100%; }
+   .chatBoxInfoRow { align-items: center; justify-content: space-between; padding: 0.33vw 0; }
+   .chatUserImage { border-radius: 2.5vw; height: 15vw; margin-right: 5.5vw; width: 15vw; }
+   .chatUserName { font-size: 4vw; font-weight: 600; }
+   .chatTime, .chatMessage { color: #848484; font-size: 2.5vw; }
+   .chatBoxOption { 
+      align-items: center; 
+      background: #7E98DF; 
+      border-radius: 2.5vw 0 0 2.5vw;
+      display: none;
+      height: 7.7vh; 
+      justify-content: space-between; 
+      margin-left: 3.3vw; 
+      padding: 0 5.5vw; 
+      transition-duration: 0.5s; 
+      width: 55vw; 
+      z-index: 1;
+      
+   }
+   .chatBox:hover { padding-right: 0; }
+   .chatBox:hover .chatBoxOption { display: flex; flex-direction: row; }
+   .saveMessages { height: 4.5vw; width: 3.3vw; }
+   .doubleCheck { height: 2.4vw; width: 4.5vw; }
+   .deleteBtn { height: 3.9vw; width: 3.3vw; }
+      /* SETTINGS BUTTON */
+   .settingsBtn { align-items: center; justify-content: space-between; margin: 2.2vw 0; width: 100%; }
+   .settingsIcon { width: 11vw; }
+   .settingsIconLogo { height: 5.5vw; width: 5.5vw; }
+   .settingsBtnText{ font-size: 4vw; width: 100%; }
 }

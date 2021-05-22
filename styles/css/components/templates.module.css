@@ -1,7 +1,29 @@
+.chatLeftSideVisibility { width: 100%; }
+
 /* DESKTOP */
 @media(min-width: 768px) {
    .chatLeftSide { background: white; border-right: 0.1vw solid #E5E5E5; height: 100vh; width: 25%; }
    .chatRightSide { background: #F6F6F6; height: 100vh; width: 75%; }
+   .chatLeftSideSwitch { visibility: hidden; }
+   .hideThisInDesktop { display: none; }
 }
 
 /* MOBILE */
+@media(max-width: 768px) {
+   .chatLeftSide { background: white; border-right: 0.1vw solid #E5E5E5; height: 100vh; position: absolute; z-index: 1; }
+   .chatRightSide { background: #F6F6F6; height: 100vh; }
+   .hideChatLeftSide { display: none; }
+   .chatLeftSideSwitch { 
+      align-items: center; 
+      background: #7E98DF;
+      border-radius: 0 3.3vw 3.3vw 0;
+      color: white;
+      font-size: 7.7vw; 
+      font-weight: bold;
+      height: 25vw; 
+      justify-content: center; 
+      position: absolute; 
+      top: 40%; 
+      width: 7.7vw;  
+   }
+}

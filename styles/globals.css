@@ -26,19 +26,34 @@ input[type=number] {
 .hoverThis:hover { cursor: pointer; opacity: 0.5; }
 
 /* CSS AUTH GLOBAL */
-.authBg { align-items: center; background: #F6F6F6; justify-content: center; height: 100vh; }
-.authBorder {
-  background: white;
-  border-radius: 2vw;
-  box-shadow: 0 1.5vw 1.5vw rgba(126, 152, 223, 0.05);
-  height: auto;
-  margin: auto;
-  padding: 6vh 3vw;
-  width: 30%;
+@media(min-width: 768px) {
+  .authBg { align-items: center; background: #F6F6F6; justify-content: center; height: 100vh; }
+  .authBorder {
+    background: white;
+    border-radius: 2vw;
+    box-shadow: 0 1.5vw 1.5vw rgba(126, 152, 223, 0.05);
+    height: auto;
+    margin: auto;
+    padding: 6vh 3vw;
+    width: 30%;
+  }
+  .gapBetweenButtonAndGoogle { align-items: center; justify-content: space-between; margin: 2.2vw 0; }
+  .lineBreak { border-bottom: 0.1vw solid #848484; width: 30%; }
+  .lineBreakText { color: #848484; font-size: 1vw; }
 }
-.gapBetweenButtonAndGoogle { align-items: center; justify-content: space-between; margin: 2.2vw 0; }
-.lineBreak { border-bottom: 0.1vw solid #848484; width: 30%; }
-.lineBreakText { color: #848484; font-size: 1vw; }
 
-/* RESPONSIVE MOBILE WEB STILL IN DEVELOPMENT */
-@media(max-width: 768px) { .showInAnimation { display: none; } }
+@media(max-width: 768px) {
+  .authBg { align-items: center; background: #F6F6F6; justify-content: center; height: 100vh; }
+  .authBorder {
+    background: white;
+    border-radius: 5.5vw;
+    box-shadow: 0 1.5vw 1.5vw rgba(126, 152, 223, 0.05);
+    height: auto;
+    margin: auto;
+    padding: 5.5vw;
+    width: 88vw;
+  }
+  .gapBetweenButtonAndGoogle { align-items: center; justify-content: space-between; margin: 3.3vw 0; }
+  .lineBreak { border-bottom: 0.1vw solid #848484; width: 30%; }
+  .lineBreakText { color: #848484; font-size: 2.5vw; }
+}

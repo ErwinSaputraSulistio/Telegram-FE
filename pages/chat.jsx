@@ -107,7 +107,7 @@ export default function Chat() {
          <Head>
             <title>Telegram - Let's Chat!</title>
          </Head>
-         <div className={"displayRow showInAnimation " + css.chatZone}>
+         <div className={"showInAnimation " + css.chatZone}>
             <ChatLeftSide data={chatConnection} del={ () => afterDelete() } func={ (e) => { startChat(e) } }/>
             <ToastContainer/>
             <ChatRightSide ad={triggerData} cd={connectionData} ci={connectionID} data={messages} func={[(e) => { setMessage(e.target.value) }, (e) => { handleSendMessage(e) }]} message={message}/>

@@ -37,6 +37,35 @@
  /* MOBILE */
  @media(max-width: 768px) {
     /* CHAT LEFT SIDE */
- 
-    /* CHAT RIGHT SIDE */
+      /* CHAT */
+   .chatLeftSide { width: 100vw; }
+      /* PROFILE */
+   .profileSettings { padding: 3.3vw 7.7vw; }
+   .profilePicture, .profileRealName, .profileUserName { margin: auto; }
+   .profilePicture { border-radius: 3.3vw; height: 33vw; width: 33vw; }
+   .profileRealName { font-size: 5.5vw; font-weight: bold; margin-top: 3.3vw; text-align: center; }
+   .profileUserName { color: #848484; font-size: 4vw; margin-top: 1vw; margin-bottom: 2vw; }
+   .accountText { font-size: 2.5vw; font-weight: bold; }
+   .profilePhoneNumber { font-size: 4vw; margin-bottom: 3vw; margin-top: 2vw; }
+   .inputPhoneNumber { font-size: 4vw; }
+   .allAboutUserName { border-top: 0.1vw solid #A9A9A9; }
+   .profileBigText { font-size: 4vw; font-weight: bold; width: 100%; }
+   .profileSmallText { color: #848484; font-size: 2.5vw; margin-top: 0.5vw; }
+   .allAboutUserName, .allAboutBiodata { border-bottom: 0.1vw solid #A9A9A9; padding: 5vw 0 2.5vw 0; }
+   /* CHAT RIGHT SIDE */
+   .emptyChat { align-items: center; color: #848484; font-size: 1.5vw; height: 100vh; justify-content: center; }
+   .chatZone { height: 136vw; overflow: hidden; margin-top: 22vw; padding: 3.3vw 7.7vw; transition-duration: 0.5s; }
+   .chatZone:hover { overflow-y: auto; }
+   /* YOUR USER CHAT */
+   .yourUserChat { margin: 2.5vw 0; width: 100%; }
+   .insideYourUserChat { align-items: center; justify-content: space-between; }
+   .yourUserChatTime { font-size: 2.5vw; }
+   .yourUserMessage { background: white; border-radius: 5vw 1vw 5vw 5vw; font-size: 4vw; margin-left: 2.5vw; padding: 2.5vw 5vw; }
+   .yourUserImage { border-radius: 2.5vw; height: 8.8vw; margin-left: 2.5vw; width: 8.8vw; }
+   /* OPPOSITE USER CHAT */
+   .oppositeUserChat { margin: 1vw 0; width: 100%; }
+   .insideOppositeUserChat { align-items: center; justify-content: space-between; }
+   .oppositeUserChatTime { font-size: 1vw; }
+   .oppositeUserMessage { background: #7E98DF; border-radius: 1vw 5vw 5vw 5vw; color: white; font-size: 4vw; margin-right: 2.5vw; padding: 2.5vw 5vw; }
+   .oppositeUserImage { border-radius: 2.5vw; height: 8.8vw; margin-right: 2.5vw; width: 8.8vw; }
  }
