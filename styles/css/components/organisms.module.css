@@ -53,7 +53,7 @@
    .profileSmallText { color: #848484; font-size: 2.5vw; margin-top: 0.5vw; }
    .allAboutUserName, .allAboutBiodata { border-bottom: 0.1vw solid #A9A9A9; padding: 5vw 0 2.5vw 0; }
    /* CHAT RIGHT SIDE */
-   .emptyChat { align-items: center; color: #848484; font-size: 1.5vw; height: 100vh; justify-content: center; }
+   .emptyChat { align-items: center; color: #848484; font-size: 4vw; height: 100vh; justify-content: center; }
    .chatZone { height: 136vw; overflow: hidden; margin-top: 22vw; padding: 3.3vw 7.7vw; transition-duration: 0.5s; }
    .chatZone:hover { overflow-y: auto; }
    /* YOUR USER CHAT */

@@ -2,9 +2,9 @@ import css from '../../../styles/css/components/atoms.module.css'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 // IMPORT IMAGES
-import SaveMessages from '../../../img/SaveMessages.png'
-import Check from '../../../img/doubleCheck.png'
-import Delete from '../../../img/deleteBtn.png'
+import SaveMessages from '../../../public/img/SaveMessages.png'
+import Check from '../../../public/img/doubleCheck.png'
+import Delete from '../../../public/img/deleteBtn.png'
 import Swal from 'sweetalert2'
 
 export default function ChatBox({ del, func, image, name, unique, userid, switchVisibility }) {

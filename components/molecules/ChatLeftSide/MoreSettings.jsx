@@ -5,9 +5,9 @@ import axios from 'axios'
 // ATOMS
 import Setting from '../../atoms/ChatLeftSide/SettingsBtn'
 // LOGOS
-import Notification from '../../../img/Notification.png'
-import Privacy from '../../../img/Privacy.png'
-import Logout from '../../../img/Logout.png'
+import Notification from '../../../public/img/Notification.png'
+import Privacy from '../../../public/img/Privacy.png'
+import Logout from '../../../public/img/Logout.png'
 
 export default function MoreSettings() {
    // BASE CONF

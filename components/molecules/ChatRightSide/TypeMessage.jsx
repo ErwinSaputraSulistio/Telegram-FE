@@ -1,8 +1,8 @@
 import css from '../../../styles/css/components/molecules.module.css'
 // LOGO
-import ChatPlus from '../../../img/chatPlus.png'
-import ChatEmoji from '../../../img/chatEmoji.png'
-import ChatPhoto from '../../../img/chatPhoto.png'
+import ChatPlus from '../../../public/img/chatPlus.png'
+import ChatEmoji from '../../../public/img/chatEmoji.png'
+import ChatPhoto from '../../../public/img/chatPhoto.png'
 
 export default function TypeMessage({ message, passFuncsFromOrganisms }) {
    return(

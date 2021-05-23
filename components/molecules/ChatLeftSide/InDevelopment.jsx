@@ -1,5 +1,5 @@
 import css from '../../../styles/css/components/molecules.module.css'
-import InDevelopmentGIF from '../../../img/inDevelopment.gif'
+import InDevelopmentGIF from '../../../public/img/inDevelopment.gif'
 import { useEffect, useState } from 'react'
 
 export default function InDevelopment() {

@@ -1,6 +1,6 @@
 import css from '../../../styles/css/components/molecules.module.css'
 // LOGO
-import ProfileMenu from '../../../img/profileMenu.png'
+import ProfileMenu from '../../../public/img/profileMenu.png'
 
 export default function ChatRightSideNavbar({ cd }) {
    return(

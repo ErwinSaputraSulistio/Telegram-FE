@@ -1,6 +1,6 @@
 import css from '../../../styles/css/components/molecules.module.css'
-import Search from '../../../img/Search.png'
-import Plus from '../../../img/chatPlus.png'
+import Search from '../../../public/img/Search.png'
+import Plus from '../../../public/img/chatPlus.png'
 
 export default function ChatSearch({ switchVisibility }) {
    return(

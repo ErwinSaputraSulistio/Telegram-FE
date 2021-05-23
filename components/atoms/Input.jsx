@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import css from '../../styles/css/components/atoms.module.css'
-import Eye from '../../img/eye.png'
+import Eye from '../../public/img/eye.png'
 
 export default function Input({ipCg, ipLbl, ipNm, ipTy, plcHldr, val}) {
    // INPUT FUNCTION

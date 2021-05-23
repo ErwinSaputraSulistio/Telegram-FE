@@ -5,7 +5,7 @@ import Head from 'next/head'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 // LOGO
-import Google from '../img/google.png'
+import Google from '../public/img/google.png'
 // ATOMS
 import Input from '../components/atoms/Input'
 import BigButton from '../components/atoms/BigButton'

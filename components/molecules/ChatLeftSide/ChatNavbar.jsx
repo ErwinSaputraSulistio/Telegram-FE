@@ -1,15 +1,15 @@
 import css from '../../../styles/css/components/molecules.module.css'
-import NavbarButton from '../../../img/navbarButton.png'
+import NavbarButton from '../../../public/img/navbarButton.png'
 import { useState } from 'react'
 // ATOMS
 import HamMenuBtn from '../../atoms/ChatLeftSide/HamMenuBtn'
 // IMG
-import Settings from '../../../img/Settings.png'
-import Contacts from '../../../img/Contacts.png'
-import Calls from '../../../img/Calls.png'
-import SaveMessages from '../../../img/SaveMessages.png'
-import InviteFriends from '../../../img/InviteFriends.png'
-import FAQ from '../../../img/FAQ.png'
+import Settings from '../../../public/img/Settings.png'
+import Contacts from '../../../public/img/Contacts.png'
+import Calls from '../../../public/img/Calls.png'
+import SaveMessages from '../../../public/img/SaveMessages.png'
+import InviteFriends from '../../../public/img/InviteFriends.png'
+import FAQ from '../../../public/img/FAQ.png'
 
 export default function ChatNavbar({ passFuncsFromOrganisms }) {
    const [hamMenu, showHamMenu] = useState(false)
