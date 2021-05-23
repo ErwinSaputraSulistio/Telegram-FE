@@ -1,9 +1,9 @@
 # Telegram-FE
 <p align="center">
-  <img height="215" src="https://user-images.githubusercontent.com/77045083/117059480-0bacef00-ad4a-11eb-99c5-cc9ce21c6677.png" width="430">
-  <img height="215" src="https://user-images.githubusercontent.com/77045083/117723464-99864f80-b20c-11eb-9518-8692b8719625.png" width="430">
-  <img height="215" src="https://user-images.githubusercontent.com/77045083/117723470-9b501300-b20c-11eb-8586-6d56424f9d77.png" width="430">
-  <img height="215" src="https://user-images.githubusercontent.com/77045083/117723450-97bc8c00-b20c-11eb-94b0-38948cb1c4fe.png" width="430">
+  <img height="215" src="https://user-images.githubusercontent.com/77045083/117059480-0bacef00-ad4a-11eb-99c5-cc9ce21c6677.png" width="415">
+  <img height="215" src="https://user-images.githubusercontent.com/77045083/117723464-99864f80-b20c-11eb-9518-8692b8719625.png" width="415">
+  <img height="215" src="https://user-images.githubusercontent.com/77045083/117723470-9b501300-b20c-11eb-8586-6d56424f9d77.png" width="415">
+  <img height="215" src="https://user-images.githubusercontent.com/77045083/117723450-97bc8c00-b20c-11eb-94b0-38948cb1c4fe.png" width="415">
 </p>
 
 ## How to install & start?  
