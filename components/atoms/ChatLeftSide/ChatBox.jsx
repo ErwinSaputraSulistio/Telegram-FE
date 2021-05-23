@@ -46,7 +46,7 @@ export default function ChatBox({ del, func, image, name, unique, userid, switch
                   <div className={css.chatTime} img={image} user={name} userid={userid} serial={unique}>00:00</div>
                </div>
                <div className={"displayRow " + css.chatBoxInfoRow} img={image} user={name} userid={userid} serial={unique}>
-                  <div className={css.chatMessage} img={image} user={name} userid={userid} serial={unique}>{latestMessage}</div>
+                  <div className={css.chatMessage} img={image} user={name} userid={userid} serial={unique}>{latestMessage.length > 22 ? latestMessage.slice(0,22) + " ..." : latestMessage}</div>
                </div>
             </div>
          </div>

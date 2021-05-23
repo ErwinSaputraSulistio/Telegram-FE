@@ -21,7 +21,7 @@ export default function Chat() {
    // TES CONF
    const [socket, setSocket] = useState(null)
    const setupSocket = ()=>{
-      const newSocket = io("http://localhost:2500")
+      const newSocket = io("https://ciwin-telegram.herokuapp.com")
       // console.log(newSocket);
       // newSocket.on("connect", ()=>{
       //   console.log('connect');

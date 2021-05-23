@@ -79,7 +79,7 @@ export default function ChatRightSideOrganism({ ad, cd, ci, message, passDatasFr
                   <div className={css.yourUserChat}>
                      <div className={"displayRow " + css.insideYourUserChat}>
                         <div></div>
-                        <div className={"displayRow"} style={{alignItems: "center"}}>
+                        <div className={"displayRow"}>
                            <div className={css.yourUserChatTime}>{item.time}</div>
                            <div className={css.yourUserMessage}>{item.message}</div>
                            <img className={css.yourUserImage} src={myUserData.user_image}/>

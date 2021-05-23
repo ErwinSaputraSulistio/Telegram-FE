@@ -57,15 +57,15 @@
    .chatZone { height: 136vw; overflow: hidden; margin-top: 22vw; padding: 3.3vw 7.7vw; transition-duration: 0.5s; }
    .chatZone:hover { overflow-y: auto; }
    /* YOUR USER CHAT */
-   .yourUserChat { margin: 2.5vw 0; width: 100%; }
+   .yourUserChat { margin: 5vw 0; width: 100%; }
    .insideYourUserChat { align-items: center; justify-content: space-between; }
    .yourUserChatTime { font-size: 2.5vw; }
-   .yourUserMessage { background: white; border-radius: 5vw 1vw 5vw 5vw; font-size: 4vw; margin-left: 2.5vw; padding: 2.5vw 5vw; }
+   .yourUserMessage { background: white; border-radius: 5vw 1vw 5vw 5vw; font-size: 4vw; margin-left: 2.5vw; max-width: 50vw; padding: 2.5vw 5vw; word-wrap: break-word; }
    .yourUserImage { border-radius: 2.5vw; height: 8.8vw; margin-left: 2.5vw; width: 8.8vw; }
    /* OPPOSITE USER CHAT */
-   .oppositeUserChat { margin: 1vw 0; width: 100%; }
+   .oppositeUserChat { margin: 5vw 0; width: 100%; }
    .insideOppositeUserChat { align-items: center; justify-content: space-between; }
-   .oppositeUserChatTime { font-size: 1vw; }
-   .oppositeUserMessage { background: #7E98DF; border-radius: 1vw 5vw 5vw 5vw; color: white; font-size: 4vw; margin-right: 2.5vw; padding: 2.5vw 5vw; }
+   .oppositeUserChatTime { font-size: 2.5vw; }
+   .oppositeUserMessage { background: #7E98DF; border-radius: 1vw 5vw 5vw 5vw; color: white; font-size: 4vw; margin-right: 2.5vw; padding: 2.5vw 5vw; word-wrap: break-word; }
    .oppositeUserImage { border-radius: 2.5vw; height: 8.8vw; margin-right: 2.5vw; width: 8.8vw; }
  }
