@@ -5,8 +5,8 @@
    .gapBetweenInputAndRegister { margin-top: 1.5vw; }
    .passwordStrengthZone { margin-top: 0.5vw; }
    .passwordStrengthBorder { border: 0.1vw solid #7E98DF; border-radius: 0.5vw; margin: 0.5vw; margin-left: 0; padding: 0.25vw 1.5vw; }
-   .passwordStrengthText { font-size: 0.77vw; text-align: left; }
-   .nameTooShortOrLongText { margin: 0.5vw; margin-left: 0; text-align: left; }
+   .passwordStrengthText, .nameTooShortOrLongText { font-size: 0.77vw; text-align: left; }
+   .nameTooShortOrLongText { margin-top: 0.33vw; margin-bottom: -1vw; }
  }
  
  /* MOBILE */
@@ -17,5 +17,5 @@
    .passwordStrengthZone { margin-top: 2.5vw; }
    .passwordStrengthBorder { border: 0.1vw solid #7E98DF; border-radius: 2.5vw; margin: 1.5vw; padding: 1vw; width: 100%; }
    .passwordStrengthText, .nameTooShortOrLongText { font-size: 2.5vw; }
-   .nameTooShortOrLongText { margin: 1.5vw; margin-left: 0; text-align: left; }
+   .nameTooShortOrLongText { margin-top: 1vw; margin-bottom: -2.5vw; text-align: left; }
 }
