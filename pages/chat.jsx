@@ -54,7 +54,6 @@ export default function Chat() {
          socket.on('receiverMessage', (dataMessage) => { 
             if(localStorage.getItem("loginUserName") !== dataMessage.username) { 
                alertNotification(dataMessage.username, dataMessage.message)
-               console.log("tes")
             }
          })
       }

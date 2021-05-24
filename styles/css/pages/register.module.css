@@ -1,13 +1,21 @@
 /* DESKTOP */
 @media(min-width: 768px){
-    .authBigTitle { color: #7E98DF; font-size: 1.5vw; font-weight: 600; }
-    .authSmallTitle { font-size: 1vw; margin: 2.5vw 0; text-align: left; }
-    .gapBetweenInputAndRegister { margin-top: 2.5vw; }
+   .authBigTitle { color: #7E98DF; font-size: 1.5vw; font-weight: 600; }
+   .authSmallTitle { font-size: 1vw; margin: 2.5vw 0; text-align: left; }
+   .gapBetweenInputAndRegister { margin-top: 1.5vw; }
+   .passwordStrengthZone { margin-top: 0.5vw; }
+   .passwordStrengthBorder { border: 0.1vw solid #7E98DF; border-radius: 0.5vw; margin: 0.5vw; margin-left: 0; padding: 0.25vw 1.5vw; }
+   .passwordStrengthText { font-size: 0.77vw; text-align: left; }
+   .nameTooShortOrLongText { margin: 0.5vw; margin-left: 0; text-align: left; }
  }
  
  /* MOBILE */
  @media(max-width: 768px){
-    .authBigTitle { color: #7E98DF; font-size: 5.5vw; font-weight: 600; }
-    .authSmallTitle { font-size: 4vw; margin: 5.5vw 0; text-align: left; }
-    .gapBetweenInputAndRegister { margin-top: 11vw; }
- }
+   .authBigTitle { color: #7E98DF; font-size: 5.5vw; font-weight: 600; }
+   .authSmallTitle { font-size: 4vw; margin: 5.5vw 0; text-align: left; }
+   .gapBetweenInputAndRegister { margin-top: 11vw; }
+   .passwordStrengthZone { margin-top: 2.5vw; }
+   .passwordStrengthBorder { border: 0.1vw solid #7E98DF; border-radius: 2.5vw; margin: 1.5vw; padding: 1vw; width: 100%; }
+   .passwordStrengthText, .nameTooShortOrLongText { font-size: 2.5vw; }
+   .nameTooShortOrLongText { margin: 1.5vw; margin-left: 0; text-align: left; }
+}

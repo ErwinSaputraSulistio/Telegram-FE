@@ -37,7 +37,7 @@ input[type=number] {
     padding: 6vh 3vw;
     width: 30%;
   }
-  .gapBetweenButtonAndGoogle { align-items: center; justify-content: space-between; margin: 2.2vw 0; }
+  .gapBetweenButtonAndGoogle { align-items: center; justify-content: space-between; margin: 1.5vw 0; }
   .lineBreak { border-bottom: 0.1vw solid #848484; width: 30%; }
   .lineBreakText { color: #848484; font-size: 1vw; }
 }
