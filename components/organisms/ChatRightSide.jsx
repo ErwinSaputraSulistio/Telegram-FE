@@ -80,8 +80,10 @@ export default function ChatRightSideOrganism({ ad, cd, ci, message, passDatasFr
                      <div className={"displayRow " + css.insideYourUserChat}>
                         <div></div>
                         <div className={"displayRow"}>
-                           <div className={css.yourUserChatTime}>{item.time}</div>
-                           <div className={css.yourUserMessage}>{item.message}</div>
+                           <div className="displayRow" style={{alignItems: "center"}}>
+                              <div className={css.yourUserChatTime}>{item.time}</div>
+                              <div className={css.yourUserMessage}>{item.message}</div>
+                           </div>
                            <img className={css.yourUserImage} src={myUserData.user_image}/>
                         </div>
                      </div>
@@ -89,10 +91,12 @@ export default function ChatRightSideOrganism({ ad, cd, ci, message, passDatasFr
                   : 
                   <div className={css.oppositeUserChat}>
                      <div className={"displayRow " + css.insideOppositeUserChat}>
-                        <div className={"displayRow"} style={{alignItems: "center"}}>
+                        <div className={"displayRow"}>
                            <img className={css.oppositeUserImage} src={cd.image}/>
-                           <div className={css.oppositeUserMessage}>{item.message}</div>
-                           <div className={css.oppositeUserChatTime}>{item.time}</div>
+                           <div className="displayRow" style={{alignItems: "center"}}>
+                              <div className={css.oppositeUserMessage}>{item.message}</div>
+                              <div className={css.oppositeUserChatTime}>{item.time}</div>
+                           </div>
                         </div>
                      </div>
                   </div>
