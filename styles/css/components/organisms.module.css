@@ -16,6 +16,13 @@
    .profileBigText { font-size: 1vw; font-weight: bold; width: 100%; }
    .profileSmallText { color: #848484; font-size: 1vw; margin-top: 0.5vw; }
    .allAboutUserName, .allAboutBiodata { border-bottom: 0.1vw solid #A9A9A9; padding: 1.5vw 0; }
+      /* ADD FRIEND */
+   .chatAddFriendZone { padding: 0 2vw; }
+   .searchFriendBorder { border: 0.1vw solid #D7D7D7; border-radius: 1vw; box-shadow: 0px 0.3vw 1.5vw rgba(0, 0, 0, 0.05); margin: 1vw 0; padding: 1vw; }
+   .searchFriendImg { border-radius: 0.5vw; height: 3.3vw; margin-right: 1vw; width: 3.3vw; }
+   .searchFriendName { font-size: 1vw; font-weight: bold; margin-bottom: 0.25vw; }
+   .searchFriendBio { font-size: 0.77vw; color: #848484; margin-top: 0.25vw; }
+   .addFriendBtn { height: 1.8vw; width: 1.8vw; }
    /* CHAT RIGHT SIDE */
    .emptyChat { align-items: center; color: #848484; font-size: 1.5vw; height: 100vh; justify-content: center; }
    .chatZone { height: 71vh; overflow: hidden; padding: 0 4.5vw; transition-duration: 0.5s; }
