@@ -2,6 +2,18 @@
   <img src="https://i.pinimg.com/originals/74/e6/ec/74e6ec9d86017536f2b0367c21f38319.png" width="222">
 </p>
 
+## :mag_right: About Z-Wallet
+    Urgently need to contact someone? Or just want to chit-chat with an old friend but don't have time 
+    for a sweet reunion? Dont' worry, Telegram is here. We provide real-time chat for all of our users 
+    with add-friends system, so only people you acknowledge that can contact you. Yeah, just between 
+    you and your friends, no more spam of annoying messages from marketing and suspicious peoples!
+
+## :page_with_curl: How to install & start?  
+    git clone https://github.com/ErwinSaputraSulistio/Telegram-FE
+    cd Telegram-FE
+    npm run dev
+Backend (GitHub Repository) : https://github.com/ErwinSaputraSulistio/Telegram-BE  
+
 ## :computer: User Interface (UI) - Preview :
 <p align="center">
   <img height="215" src="https://user-images.githubusercontent.com/77045083/117059480-0bacef00-ad4a-11eb-99c5-cc9ce21c6677.png" width="415">
@@ -9,12 +21,6 @@
   <img height="215" src="https://user-images.githubusercontent.com/77045083/117723470-9b501300-b20c-11eb-8586-6d56424f9d77.png" width="415">
   <img height="215" src="https://user-images.githubusercontent.com/77045083/117723450-97bc8c00-b20c-11eb-94b0-38948cb1c4fe.png" width="415">
 </p>
-
-## :page_with_curl: How to install & start?  
-    git clone https://github.com/ErwinSaputraSulistio/Telegram-FE
-    cd Telegram-FE
-    npm run dev
-Backend (GitHub Repository) : https://github.com/ErwinSaputraSulistio/Telegram-BE  
 
 ## :pushpin: Deploy - Vercel :
 1.) Login : https://telegram-erwinsaputrasulistio.vercel.app/login  
