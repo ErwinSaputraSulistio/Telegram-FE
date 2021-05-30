@@ -1,4 +1,4 @@
 const withImages = require('next-images')
 module.exports = withImages({
-  env: { SERVER: "https://ciwin-telegram.herokuapp.com/v1" }
+  env: { SERVER: "http://localhost:2500/v1" }
 })

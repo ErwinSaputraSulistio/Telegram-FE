@@ -22,9 +22,9 @@ export default function ChatNavbar({ passFuncsFromOrganisms }) {
             <div className={"displayColumn " + css.chatNavbarHamMenu}>
                <HamMenuBtn cstmcls={css.settings} func={passFuncsFromOrganisms[1]} icon={Settings} text="Settings"/>
                <HamMenuBtn cstmcls={css.contacts} func={passFuncsFromOrganisms[2]} icon={Contacts} mgTp="2vw" mgBtm="2vw" text="Contacts"/>
-               <HamMenuBtn cstmcls={css.calls} func={passFuncsFromOrganisms[3]} icon={Calls} text="Calls"/>
-               <HamMenuBtn cstmcls={css.saveMessages} func={passFuncsFromOrganisms[4]} icon={SaveMessages} mgTp="2vw" mgBtm="2vw" text="Save Messages"/>
-               <HamMenuBtn cstmcls={css.inviteFriends} func={passFuncsFromOrganisms[5]} icon={InviteFriends} text="Invite Friends"/>
+               <HamMenuBtn cstmcls={css.inviteFriends} func={passFuncsFromOrganisms[5]} icon={InviteFriends} text="Add Friends"/>
+               <HamMenuBtn cstmcls={css.calls} func={passFuncsFromOrganisms[3]} icon={Calls} mgTp="2vw" mgBtm="2vw" text="Calls"/>
+               <HamMenuBtn cstmcls={css.saveMessages} func={passFuncsFromOrganisms[4]} icon={SaveMessages} text="Save Messages"/>
                <HamMenuBtn cstmcls={css.telegramFAQ} func={passFuncsFromOrganisms[6]} icon={FAQ} mgTp="2vw" text="Telegram FAQ"/>
             </div>
             :
