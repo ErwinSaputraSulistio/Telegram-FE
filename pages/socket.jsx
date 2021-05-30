@@ -8,7 +8,7 @@ export default function Socket() {
   const [messages, setMessages] = useState([])
   const setupSocket = ()=>{
     console.log('hello');
-    const newSocket = io("http://localhost:2500")
+    const newSocket = io("https://ciwin-telegram.herokuapp.com")
     console.log(newSocket);
     newSocket.on("connect", ()=>{
       console.log('connect');
