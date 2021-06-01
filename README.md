@@ -27,7 +27,7 @@ Backend (GitHub Repository) : https://github.com/ErwinSaputraSulistio/Telegram-B
 ## :pushpin: Deploy - Vercel :
 1.) Login : https://telegram-erwinsaputrasulistio.vercel.app/login  
 2.) Register : https://telegram-erwinsaputrasulistio.vercel.app/register  
-3.) Forgot Password : https://telegram-erwinsaputrasulistio.vercel.app/forgot-password  
+3.) Forgot Password : https://telegram-erwinsaputrasulistio.vercel.app/forgot-password/send-mail   
 4.) Chat (must login first) : https://telegram-erwinsaputrasulistio.vercel.app/chat  
 
 ## :hammer_and_wrench: Build with : 
