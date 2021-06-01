@@ -61,7 +61,7 @@ export default function Login() {
                   plcHldr="Input your password here"
                   val={inputData.password} 
                />
-               <div className={css.forgotPassword}><span className="hoverThis" onClick={ () => { router.push("/forgot-password") } }>Forgot password?</span></div>
+               <div className={css.forgotPassword}><span className="hoverThis" onClick={ () => { router.push("/forgot-password/send-mail") } }>Forgot password?</span></div>
                <BigButton 
                   bgClr="#7E98DF" 
                   ftClr="white" 
